@@ -6,6 +6,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
+          <e p="EnemyMovementStraight.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="HealthCounter.cs" t="Include" />
           <e p="Launcher.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
         </e>
