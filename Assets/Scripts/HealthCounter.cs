@@ -6,6 +6,7 @@ using UnityEngine;
 public class HealthCounter : MonoBehaviour
 {
     public int HitPoints;
+    public GameObject DeathEffect;
 
     private int HitPointsLeft;
     // Start is called before the first frame update
@@ -25,6 +26,7 @@ public class HealthCounter : MonoBehaviour
         HitPointsLeft -= Damage;
         if (HitPointsLeft<0)
         {
+            GameObject.Instantiate(DeathEffect,transform.position,Quaternion.identity);
             Destroy(this.gameObject);
         }
     }
