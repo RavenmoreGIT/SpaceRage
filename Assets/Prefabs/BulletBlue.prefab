@@ -9770,7 +9770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd22b830ff6a7f94ba5c3cc69846ec1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Velocity: 6.5
+  Velocity: 8
   Damage: 1
   HitEffect: {fileID: 5275294034799517644, guid: 18ec158f32475e947be2fcafa5cc5cb3, type: 3}
 --- !u!60 &-4291146789417503124
