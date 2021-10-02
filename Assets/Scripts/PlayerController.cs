@@ -17,11 +17,6 @@ public class PlayerController : MonoBehaviour
     public Animator PlayerAnimator;
     public TextMeshPro text;
     public Rigidbody2D PlayerRigidbody;
-    public float TiltSpeed = 100;
-    public float MaxTilt;
-
-    private float Acceleration = 0;
-    private float Tilt = 0;
     private Vector2 movement;
     
     private enum Direction{None,Left,Right,Up,Down};
@@ -41,6 +36,18 @@ public class PlayerController : MonoBehaviour
         moveVertical = Input.GetAxis("Vertical") * MovementSpeed;
         movement = new Vector2(moveHorizontal, moveVertical);
         PlayerRigidbody.velocity = movement;
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            PlayerAnimator.SetTrigger("Left");
+        }
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            PlayerAnimator.SetTrigger("Right");
+        }
+        
+        if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D)) PlayerAnimator.SetTrigger("None");
 
     }
 
