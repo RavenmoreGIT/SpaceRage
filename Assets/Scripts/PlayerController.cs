@@ -17,6 +17,10 @@ public class PlayerController : MonoBehaviour
     public Animator PlayerAnimator;
     public TextMeshPro text;
     public Rigidbody2D PlayerRigidbody;
+
+    public float xClamp = 5;
+    public float yClamp = 5;
+
     private Vector2 movement;
     
     private enum Direction{None,Left,Right,Up,Down};
@@ -37,6 +41,14 @@ public class PlayerController : MonoBehaviour
         movement = new Vector2(moveHorizontal, moveVertical);
         PlayerRigidbody.velocity = movement;
 
+        //limiting position
+        transform.localPosition = new Vector2(Mathf.Clamp(transform.localPosition.x, -xClamp, xClamp),
+            Mathf.Clamp(transform.localPosition.y, 0, yClamp)
+            );
+
+
+
+        //Animator handling.
         if (Input.GetKey(KeyCode.A))
         {
             PlayerAnimator.SetTrigger("Left");

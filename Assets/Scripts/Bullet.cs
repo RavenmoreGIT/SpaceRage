@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger");
+        //Debug.Log("Trigger");
         if (collision.transform.name != "PlayerShip" && collision.transform.name != "BulletBlue(Clone)" )
         {
             HealthCounter hc = collision.gameObject.GetComponent<HealthCounter>();
