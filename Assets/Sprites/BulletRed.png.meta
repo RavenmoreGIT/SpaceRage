@@ -1,22 +1,7 @@
 fileFormatVersion: 2
-guid: b6dfced997cd2554196cb42737054879
+guid: f1de26dd5bb4e894f84276fa683e5396
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -5934761212996482088
-    second: PlayerLeft2
-  - first:
-      213: -3447661468043833857
-    second: PlayerLeft1
-  - first:
-      213: -3031131671914013975
-    second: Player
-  - first:
-      213: -6796270951568978583
-    second: PlayerRight1
-  - first:
-      213: 4017998095915701871
-    second: PlayerRight2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -128,112 +113,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: PlayerLeft2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8db0498de1e73ada0800000000000000
-      internalID: -5934761212996482088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerLeft1
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffd027b49227720d0800000000000000
-      internalID: -3447661468043833857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player
-      rect:
-        serializedVersion: 2
-        x: 666
-        y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ea1124ddc14fe5d0800000000000000
-      internalID: -3031131671914013975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRight1
-      rect:
-        serializedVersion: 2
-        x: 999
-        y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96dcc66e39bcea1a0800000000000000
-      internalID: -6796270951568978583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerRight2
-      rect:
-        serializedVersion: 2
-        x: 1331
-        y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f66504fdafbc2c730800000000000000
-      internalID: 4017998095915701871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []

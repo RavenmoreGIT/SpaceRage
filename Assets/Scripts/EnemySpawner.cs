@@ -8,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
 
     public float LevelDiameter = 7.5f;
 
-    public float SpawnInterval = 5;
+    public float SpawnInterval = 10;
 
     private float SpawnIntervalCounter = 0;
     // Start is called before the first frame update
@@ -31,7 +31,11 @@ public class EnemySpawner : MonoBehaviour
 
     private void SpawnEnemy(GameObject enemyObject)
     {
-        GameObject.Instantiate(enemyObject,GenerateRandomSpawnPoint(),Quaternion.identity);
+        Vector3 SpawnPoint = GenerateRandomSpawnPoint();
+        Vector3 Distance = new Vector3(0, 1.5f,0);
+        GameObject.Instantiate(enemyObject,SpawnPoint,Quaternion.identity);
+        GameObject.Instantiate(enemyObject, SpawnPoint+Distance, Quaternion.identity);
+        GameObject.Instantiate(enemyObject, SpawnPoint + Distance+Distance, Quaternion.identity);
     }
 
     private Vector3 GenerateRandomSpawnPoint()

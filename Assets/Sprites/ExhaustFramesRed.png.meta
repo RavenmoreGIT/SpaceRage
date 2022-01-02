@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: b6dfced997cd2554196cb42737054879
+guid: f65fc3e18bf27c746ae66d8fb33d2b0f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5934761212996482088
-    second: PlayerLeft2
+      213: 3430663872054365507
+    second: ExhaustFramesRed_0
   - first:
-      213: -3447661468043833857
-    second: PlayerLeft1
+      213: -6840706546184947464
+    second: ExhaustFramesRed_1
   - first:
-      213: -3031131671914013975
-    second: Player
+      213: -4119631637549841416
+    second: ExhaustFramesRed_2
   - first:
-      213: -6796270951568978583
-    second: PlayerRight1
+      213: 6933381224061764109
+    second: ExhaustFramesRed_3
   - first:
-      213: 4017998095915701871
-    second: PlayerRight2
+      213: -4086342427499268042
+    second: ExhaustFramesRed_4
+  - first:
+      213: 2166392741451247469
+    second: ExhaustFramesRed_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,106 +133,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerLeft2
+      name: ExhaustFramesRed_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5522876, y: 0.8617962}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8db0498de1e73ada0800000000000000
-      internalID: -5934761212996482088
+      spriteID: 34d019d7d9a2c9f20800000000000000
+      internalID: 3430663872054365507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerLeft1
+      name: ExhaustFramesRed_1
       rect:
         serializedVersion: 2
-        x: 333
+        x: 65
         y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.49477115, y: 0.85357356}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd027b49227720d0800000000000000
-      internalID: -3447661468043833857
+      spriteID: 8f8f4fdc3ade011a0800000000000000
+      internalID: -6840706546184947464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player
+      name: ExhaustFramesRed_2
       rect:
         serializedVersion: 2
-        x: 666
+        x: 130
         y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.46339864, y: 0.8453509}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ea1124ddc14fe5d0800000000000000
-      internalID: -3031131671914013975
+      spriteID: 8f381663ad024d6c0800000000000000
+      internalID: -4119631637549841416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerRight1
+      name: ExhaustFramesRed_3
       rect:
         serializedVersion: 2
-        x: 999
+        x: 195
         y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5052286, y: 0.85357356}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96dcc66e39bcea1a0800000000000000
-      internalID: -6796270951568978583
+      spriteID: d0280981d71583060800000000000000
+      internalID: 6933381224061764109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerRight2
+      name: ExhaustFramesRed_4
       rect:
         serializedVersion: 2
-        x: 1331
+        x: 260
         y: 0
-        width: 333
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.484313, y: 0.8508326}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f66504fdafbc2c730800000000000000
-      internalID: 4017998095915701871
+      spriteID: 6387c4a66356a47c0800000000000000
+      internalID: -4086342427499268042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExhaustFramesRed_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 65
+        height: 124
+      alignment: 9
+      pivot: {x: 0.45294094, y: 0.8480918}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6faf2668b2901e10800000000000000
+      internalID: 2166392741451247469
       vertices: []
       indices: 
       edges: []
