@@ -1,0 +1,2 @@
+05.01.2022
+Tried flashing sprites on hit. Didn't look good / not worth it. Epileptic. Don't like that kind of feedback.
